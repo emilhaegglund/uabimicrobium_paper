@@ -1,0 +1,5 @@
+channels:
+    - bioconda
+dependencies:
+    - orthofinder=2.3.3
+    - diamond=0.9.30
