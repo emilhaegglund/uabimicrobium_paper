@@ -1,0 +1,5 @@
+
+channels:
+    - bioconda
+dependencies:
+    - orthomcl=2.0.9
