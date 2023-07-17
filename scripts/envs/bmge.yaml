@@ -1,0 +1,5 @@
+channels:
+    - bioconda
+dependencies:
+    - bmge=1.12
+
