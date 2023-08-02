@@ -1,0 +1,28 @@
+Building DAG of jobs...
+Your conda installation is not configured to use strict channel priorities. This is however crucial for having robust and correct environments (for details, see https://conda-forge.org/docs/user/tipsandtricks.html). Please consider to configure strict priorities by executing 'conda config --set channel_priority strict'.
+Creating conda environment ../envs/alignment_prune.yaml...
+Downloading and installing remote packages.
+Environment for /data/emil/uabimicrobium_paper/scripts/09-species-phylogeny-aminoGC/../envs/alignment_prune.yaml created (location: ../conda-envs/7df51c0672de353cb701677334f71fa6_)
+Using shell: /bin/bash
+Provided cores: 24
+Rules claiming more threads will be scaled down.
+Job stats:
+job                  count    min threads    max threads
+-----------------  -------  -------------  -------------
+alignment_aminogc      114              1              1
+all                      1              1              1
+parse_results            1              1              1
+total                  116              1              1
+
+Select jobs to execute...
+
+[Wed Aug  2 10:47:09 2023]
+rule alignment_aminogc:
+    input: ../../results/07_align_sco/alignments/OG0000730.aln
+    output: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000730.tsv
+    jobid: 15
+    reason: Missing output files: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000730.tsv
+    wildcards: orthogroup=OG0000730
+    resources: tmpdir=/tmp
+
+Waiting at most 5 seconds for missing files.

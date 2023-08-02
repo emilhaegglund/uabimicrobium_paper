@@ -1,0 +1,572 @@
+Building DAG of jobs...
+Your conda installation is not configured to use strict channel priorities. This is however crucial for having robust and correct environments (for details, see https://conda-forge.org/docs/user/tipsandtricks.html). Please consider to configure strict priorities by executing 'conda config --set channel_priority strict'.
+Creating conda environment ../envs/alignment_prune.yaml...
+Downloading and installing remote packages.
+Environment for /data/emil/uabimicrobium_paper/scripts/09-species-phylogeny-aminoGC/../envs/alignment_prune.yaml created (location: ../conda-envs/20f237e006ca5a3ef18d610b125fbe8f_)
+Using shell: /bin/bash
+Provided cores: 24
+Rules claiming more threads will be scaled down.
+Job stats:
+job                  count    min threads    max threads
+-----------------  -------  -------------  -------------
+alignment_aminogc      114              1              1
+all                      1              1              1
+parse_results            1              1              1
+total                  116              1              1
+
+Select jobs to execute...
+
+[Wed Aug  2 10:39:32 2023]
+rule alignment_aminogc:
+    input: ../../results/07_align_sco/alignments/OG0000705.aln
+    output: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000705.tsv
+    jobid: 43
+    reason: Missing output files: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000705.tsv
+    wildcards: orthogroup=OG0000705
+    resources: tmpdir=/tmp
+
+Activating conda environment: ../conda-envs/20f237e006ca5a3ef18d610b125fbe8f_
+
+[Wed Aug  2 10:39:32 2023]
+rule alignment_aminogc:
+    input: ../../results/07_align_sco/alignments/OG0000716.aln
+    output: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000716.tsv
+    jobid: 99
+    reason: Missing output files: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000716.tsv
+    wildcards: orthogroup=OG0000716
+    resources: tmpdir=/tmp
+
+Activating conda environment: ../conda-envs/20f237e006ca5a3ef18d610b125fbe8f_
+
+[Wed Aug  2 10:39:32 2023]
+rule alignment_aminogc:
+    input: ../../results/07_align_sco/alignments/OG0000700.aln
+    output: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000700.tsv
+    jobid: 30
+    reason: Missing output files: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000700.tsv
+    wildcards: orthogroup=OG0000700
+    resources: tmpdir=/tmp
+
+Activating conda environment: ../conda-envs/20f237e006ca5a3ef18d610b125fbe8f_
+
+[Wed Aug  2 10:39:32 2023]
+rule alignment_aminogc:
+    input: ../../results/07_align_sco/alignments/OG0000812.aln
+    output: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000812.tsv
+    jobid: 16
+    reason: Missing output files: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000812.tsv
+    wildcards: orthogroup=OG0000812
+    resources: tmpdir=/tmp
+
+Activating conda environment: ../conda-envs/20f237e006ca5a3ef18d610b125fbe8f_
+
+[Wed Aug  2 10:39:32 2023]
+rule alignment_aminogc:
+    input: ../../results/07_align_sco/alignments/OG0000728.aln
+    output: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000728.tsv
+    jobid: 67
+    reason: Missing output files: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000728.tsv
+    wildcards: orthogroup=OG0000728
+    resources: tmpdir=/tmp
+
+Activating conda environment: ../conda-envs/20f237e006ca5a3ef18d610b125fbe8f_
+
+[Wed Aug  2 10:39:32 2023]
+rule alignment_aminogc:
+    input: ../../results/07_align_sco/alignments/OG0000652.aln
+    output: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000652.tsv
+    jobid: 39
+    reason: Missing output files: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000652.tsv
+    wildcards: orthogroup=OG0000652
+    resources: tmpdir=/tmp
+
+Activating conda environment: ../conda-envs/20f237e006ca5a3ef18d610b125fbe8f_
+
+[Wed Aug  2 10:39:32 2023]
+rule alignment_aminogc:
+    input: ../../results/07_align_sco/alignments/OG0000639.aln
+    output: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000639.tsv
+    jobid: 25
+    reason: Missing output files: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000639.tsv
+    wildcards: orthogroup=OG0000639
+    resources: tmpdir=/tmp
+
+Activating conda environment: ../conda-envs/20f237e006ca5a3ef18d610b125fbe8f_
+
+[Wed Aug  2 10:39:32 2023]
+rule alignment_aminogc:
+    input: ../../results/07_align_sco/alignments/OG0000746.aln
+    output: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000746.tsv
+    jobid: 81
+    reason: Missing output files: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000746.tsv
+    wildcards: orthogroup=OG0000746
+    resources: tmpdir=/tmp
+
+Activating conda environment: ../conda-envs/20f237e006ca5a3ef18d610b125fbe8f_
+
+[Wed Aug  2 10:39:32 2023]
+rule alignment_aminogc:
+    input: ../../results/07_align_sco/alignments/OG0000678.aln
+    output: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000678.tsv
+    jobid: 95
+    reason: Missing output files: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000678.tsv
+    wildcards: orthogroup=OG0000678
+    resources: tmpdir=/tmp
+
+Activating conda environment: ../conda-envs/20f237e006ca5a3ef18d610b125fbe8f_
+
+[Wed Aug  2 10:39:32 2023]
+rule alignment_aminogc:
+    input: ../../results/07_align_sco/alignments/OG0000664.aln
+    output: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000664.tsv
+    jobid: 40
+    reason: Missing output files: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000664.tsv
+    wildcards: orthogroup=OG0000664
+    resources: tmpdir=/tmp
+
+Activating conda environment: ../conda-envs/20f237e006ca5a3ef18d610b125fbe8f_
+
+[Wed Aug  2 10:39:32 2023]
+rule alignment_aminogc:
+    input: ../../results/07_align_sco/alignments/OG0000673.aln
+    output: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000673.tsv
+    jobid: 68
+    reason: Missing output files: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000673.tsv
+    wildcards: orthogroup=OG0000673
+    resources: tmpdir=/tmp
+
+Activating conda environment: ../conda-envs/20f237e006ca5a3ef18d610b125fbe8f_
+
+[Wed Aug  2 10:39:32 2023]
+rule alignment_aminogc:
+    input: ../../results/07_align_sco/alignments/OG0000734.aln
+    output: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000734.tsv
+    jobid: 82
+    reason: Missing output files: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000734.tsv
+    wildcards: orthogroup=OG0000734
+    resources: tmpdir=/tmp
+
+Activating conda environment: ../conda-envs/20f237e006ca5a3ef18d610b125fbe8f_
+
+[Wed Aug  2 10:39:32 2023]
+rule alignment_aminogc:
+    input: ../../results/07_align_sco/alignments/OG0000646.aln
+    output: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000646.tsv
+    jobid: 96
+    reason: Missing output files: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000646.tsv
+    wildcards: orthogroup=OG0000646
+    resources: tmpdir=/tmp
+
+Activating conda environment: ../conda-envs/20f237e006ca5a3ef18d610b125fbe8f_
+
+[Wed Aug  2 10:39:32 2023]
+rule alignment_aminogc:
+    input: ../../results/07_align_sco/alignments/OG0000647.aln
+    output: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000647.tsv
+    jobid: 26
+    reason: Missing output files: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000647.tsv
+    wildcards: orthogroup=OG0000647
+    resources: tmpdir=/tmp
+
+Activating conda environment: ../conda-envs/20f237e006ca5a3ef18d610b125fbe8f_
+
+[Wed Aug  2 10:39:32 2023]
+rule alignment_aminogc:
+    input: ../../results/07_align_sco/alignments/OG0000768.aln
+    output: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000768.tsv
+    jobid: 97
+    reason: Missing output files: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000768.tsv
+    wildcards: orthogroup=OG0000768
+    resources: tmpdir=/tmp
+
+Activating conda environment: ../conda-envs/20f237e006ca5a3ef18d610b125fbe8f_
+
+[Wed Aug  2 10:39:32 2023]
+rule alignment_aminogc:
+    input: ../../results/07_align_sco/alignments/OG0000662.aln
+    output: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000662.tsv
+    jobid: 27
+    reason: Missing output files: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000662.tsv
+    wildcards: orthogroup=OG0000662
+    resources: tmpdir=/tmp
+
+Activating conda environment: ../conda-envs/20f237e006ca5a3ef18d610b125fbe8f_
+
+[Wed Aug  2 10:39:32 2023]
+rule alignment_aminogc:
+    input: ../../results/07_align_sco/alignments/OG0000692.aln
+    output: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000692.tsv
+    jobid: 41
+    reason: Missing output files: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000692.tsv
+    wildcards: orthogroup=OG0000692
+    resources: tmpdir=/tmp
+
+Activating conda environment: ../conda-envs/20f237e006ca5a3ef18d610b125fbe8f_
+
+[Wed Aug  2 10:39:32 2023]
+rule alignment_aminogc:
+    input: ../../results/07_align_sco/alignments/OG0000802.aln
+    output: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000802.tsv
+    jobid: 69
+    reason: Missing output files: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000802.tsv
+    wildcards: orthogroup=OG0000802
+    resources: tmpdir=/tmp
+
+Activating conda environment: ../conda-envs/20f237e006ca5a3ef18d610b125fbe8f_
+
+[Wed Aug  2 10:39:32 2023]
+rule alignment_aminogc:
+    input: ../../results/07_align_sco/alignments/OG0000644.aln
+    output: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000644.tsv
+    jobid: 83
+    reason: Missing output files: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000644.tsv
+    wildcards: orthogroup=OG0000644
+    resources: tmpdir=/tmp
+
+Activating conda environment: ../conda-envs/20f237e006ca5a3ef18d610b125fbe8f_
+
+[Wed Aug  2 10:39:32 2023]
+rule alignment_aminogc:
+    input: ../../results/07_align_sco/alignments/OG0000640.aln
+    output: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000640.tsv
+    jobid: 28
+    reason: Missing output files: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000640.tsv
+    wildcards: orthogroup=OG0000640
+    resources: tmpdir=/tmp
+
+Activating conda environment: ../conda-envs/20f237e006ca5a3ef18d610b125fbe8f_
+
+[Wed Aug  2 10:39:32 2023]
+rule alignment_aminogc:
+    input: ../../results/07_align_sco/alignments/OG0000698.aln
+    output: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000698.tsv
+    jobid: 42
+    reason: Missing output files: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000698.tsv
+    wildcards: orthogroup=OG0000698
+    resources: tmpdir=/tmp
+
+Activating conda environment: ../conda-envs/20f237e006ca5a3ef18d610b125fbe8f_
+
+[Wed Aug  2 10:39:32 2023]
+rule alignment_aminogc:
+    input: ../../results/07_align_sco/alignments/OG0000624.aln
+    output: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000624.tsv
+    jobid: 70
+    reason: Missing output files: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000624.tsv
+    wildcards: orthogroup=OG0000624
+    resources: tmpdir=/tmp
+
+Activating conda environment: ../conda-envs/20f237e006ca5a3ef18d610b125fbe8f_
+
+[Wed Aug  2 10:39:32 2023]
+rule alignment_aminogc:
+    input: ../../results/07_align_sco/alignments/OG0000682.aln
+    output: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000682.tsv
+    jobid: 84
+    reason: Missing output files: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000682.tsv
+    wildcards: orthogroup=OG0000682
+    resources: tmpdir=/tmp
+
+Activating conda environment: ../conda-envs/20f237e006ca5a3ef18d610b125fbe8f_
+
+[Wed Aug  2 10:39:32 2023]
+rule alignment_aminogc:
+    input: ../../results/07_align_sco/alignments/OG0000625.aln
+    output: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000625.tsv
+    jobid: 98
+    reason: Missing output files: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000625.tsv
+    wildcards: orthogroup=OG0000625
+    resources: tmpdir=/tmp
+
+Activating conda environment: ../conda-envs/20f237e006ca5a3ef18d610b125fbe8f_
+[Wed Aug  2 10:39:33 2023]
+Error in rule alignment_aminogc:
+    jobid: 96
+    input: ../../results/07_align_sco/alignments/OG0000646.aln
+    output: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000646.tsv
+    conda-env: /data/emil/uabimicrobium_paper/scripts/conda-envs/20f237e006ca5a3ef18d610b125fbe8f_
+    shell:
+        perl alignment_pruner.pl --file ../../results/07_align_sco/alignments/OG0000646.aln --aminogc > ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000646.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job alignment_aminogc since they might be corrupted:
+../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000646.tsv
+[Wed Aug  2 10:39:33 2023]
+[Wed Aug  2 10:39:33 2023]
+Error in rule alignment_aminogc:
+    jobid: 81
+    input: ../../results/07_align_sco/alignments/OG0000746.aln
+    output: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000746.tsv
+    conda-env: /data/emil/uabimicrobium_paper/scripts/conda-envs/20f237e006ca5a3ef18d610b125fbe8f_
+    shell:
+        perl alignment_pruner.pl --file ../../results/07_align_sco/alignments/OG0000746.aln --aminogc > ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000746.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule alignment_aminogc:
+    jobid: 30
+    input: ../../results/07_align_sco/alignments/OG0000700.aln
+    output: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000700.tsv
+    conda-env: /data/emil/uabimicrobium_paper/scripts/conda-envs/20f237e006ca5a3ef18d610b125fbe8f_
+    shell:
+        perl alignment_pruner.pl --file ../../results/07_align_sco/alignments/OG0000700.aln --aminogc > ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000700.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Aug  2 10:39:33 2023]
+Removing output files of failed job alignment_aminogc since they might be corrupted:
+../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000746.tsv
+Error in rule alignment_aminogc:
+    jobid: 26
+    input: ../../results/07_align_sco/alignments/OG0000647.aln
+    output: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000647.tsv
+    conda-env: /data/emil/uabimicrobium_paper/scripts/conda-envs/20f237e006ca5a3ef18d610b125fbe8f_
+    shell:
+        perl alignment_pruner.pl --file ../../results/07_align_sco/alignments/OG0000647.aln --aminogc > ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000647.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job alignment_aminogc since they might be corrupted:
+../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000700.tsv
+Removing output files of failed job alignment_aminogc since they might be corrupted:
+../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000647.tsv
+[Wed Aug  2 10:39:33 2023]
+Error in rule alignment_aminogc:
+    jobid: 99
+    input: ../../results/07_align_sco/alignments/OG0000716.aln
+    output: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000716.tsv
+    conda-env: /data/emil/uabimicrobium_paper/scripts/conda-envs/20f237e006ca5a3ef18d610b125fbe8f_
+    shell:
+        perl alignment_pruner.pl --file ../../results/07_align_sco/alignments/OG0000716.aln --aminogc > ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000716.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job alignment_aminogc since they might be corrupted:
+../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000716.tsv
+[Wed Aug  2 10:39:33 2023]
+Error in rule alignment_aminogc:
+    jobid: 40
+    input: ../../results/07_align_sco/alignments/OG0000664.aln
+    output: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000664.tsv
+    conda-env: /data/emil/uabimicrobium_paper/scripts/conda-envs/20f237e006ca5a3ef18d610b125fbe8f_
+    shell:
+        perl alignment_pruner.pl --file ../../results/07_align_sco/alignments/OG0000664.aln --aminogc > ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000664.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job alignment_aminogc since they might be corrupted:
+../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000664.tsv
+[Wed Aug  2 10:39:33 2023]
+[Wed Aug  2 10:39:33 2023]
+[Wed Aug  2 10:39:33 2023]
+Error in rule alignment_aminogc:
+    jobid: 84
+    input: ../../results/07_align_sco/alignments/OG0000682.aln
+    output: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000682.tsv
+    conda-env: /data/emil/uabimicrobium_paper/scripts/conda-envs/20f237e006ca5a3ef18d610b125fbe8f_
+    shell:
+        perl alignment_pruner.pl --file ../../results/07_align_sco/alignments/OG0000682.aln --aminogc > ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000682.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule alignment_aminogc:
+    jobid: 98
+    input: ../../results/07_align_sco/alignments/OG0000625.aln
+    output: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000625.tsv
+    conda-env: /data/emil/uabimicrobium_paper/scripts/conda-envs/20f237e006ca5a3ef18d610b125fbe8f_
+    shell:
+        perl alignment_pruner.pl --file ../../results/07_align_sco/alignments/OG0000625.aln --aminogc > ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000625.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule alignment_aminogc:
+    jobid: 82
+    input: ../../results/07_align_sco/alignments/OG0000734.aln
+    output: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000734.tsv
+    conda-env: /data/emil/uabimicrobium_paper/scripts/conda-envs/20f237e006ca5a3ef18d610b125fbe8f_
+    shell:
+        perl alignment_pruner.pl --file ../../results/07_align_sco/alignments/OG0000734.aln --aminogc > ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000734.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Aug  2 10:39:33 2023]
+Removing output files of failed job alignment_aminogc since they might be corrupted:
+../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000682.tsv
+Error in rule alignment_aminogc:
+    jobid: 25
+    input: ../../results/07_align_sco/alignments/OG0000639.aln
+    output: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000639.tsv
+    conda-env: /data/emil/uabimicrobium_paper/scripts/conda-envs/20f237e006ca5a3ef18d610b125fbe8f_
+    shell:
+        perl alignment_pruner.pl --file ../../results/07_align_sco/alignments/OG0000639.aln --aminogc > ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000639.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Aug  2 10:39:33 2023]
+Removing output files of failed job alignment_aminogc since they might be corrupted:
+../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000625.tsv
+Error in rule alignment_aminogc:
+    jobid: 27
+    input: ../../results/07_align_sco/alignments/OG0000662.aln
+    output: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000662.tsv
+    conda-env: /data/emil/uabimicrobium_paper/scripts/conda-envs/20f237e006ca5a3ef18d610b125fbe8f_
+    shell:
+        perl alignment_pruner.pl --file ../../results/07_align_sco/alignments/OG0000662.aln --aminogc > ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000662.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job alignment_aminogc since they might be corrupted:
+../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000734.tsv
+Removing output files of failed job alignment_aminogc since they might be corrupted:
+../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000639.tsv
+Removing output files of failed job alignment_aminogc since they might be corrupted:
+../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000662.tsv
+[Wed Aug  2 10:39:33 2023]
+Error in rule alignment_aminogc:
+    jobid: 68
+    input: ../../results/07_align_sco/alignments/OG0000673.aln
+    output: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000673.tsv
+    conda-env: /data/emil/uabimicrobium_paper/scripts/conda-envs/20f237e006ca5a3ef18d610b125fbe8f_
+    shell:
+        perl alignment_pruner.pl --file ../../results/07_align_sco/alignments/OG0000673.aln --aminogc > ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000673.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job alignment_aminogc since they might be corrupted:
+../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000673.tsv
+[Wed Aug  2 10:39:33 2023]
+Error in rule alignment_aminogc:
+    jobid: 41
+    input: ../../results/07_align_sco/alignments/OG0000692.aln
+    output: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000692.tsv
+    conda-env: /data/emil/uabimicrobium_paper/scripts/conda-envs/20f237e006ca5a3ef18d610b125fbe8f_
+    shell:
+        perl alignment_pruner.pl --file ../../results/07_align_sco/alignments/OG0000692.aln --aminogc > ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000692.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job alignment_aminogc since they might be corrupted:
+../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000692.tsv
+[Wed Aug  2 10:39:33 2023]
+Error in rule alignment_aminogc:
+    jobid: 43
+    input: ../../results/07_align_sco/alignments/OG0000705.aln
+    output: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000705.tsv
+    conda-env: /data/emil/uabimicrobium_paper/scripts/conda-envs/20f237e006ca5a3ef18d610b125fbe8f_
+    shell:
+        perl alignment_pruner.pl --file ../../results/07_align_sco/alignments/OG0000705.aln --aminogc > ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000705.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job alignment_aminogc since they might be corrupted:
+../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000705.tsv
+[Wed Aug  2 10:39:33 2023]
+Error in rule alignment_aminogc:
+    jobid: 67
+    input: ../../results/07_align_sco/alignments/OG0000728.aln
+    output: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000728.tsv
+    conda-env: /data/emil/uabimicrobium_paper/scripts/conda-envs/20f237e006ca5a3ef18d610b125fbe8f_
+    shell:
+        perl alignment_pruner.pl --file ../../results/07_align_sco/alignments/OG0000728.aln --aminogc > ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000728.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job alignment_aminogc since they might be corrupted:
+../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000728.tsv
+[Wed Aug  2 10:39:33 2023]
+Error in rule alignment_aminogc:
+    jobid: 39
+    input: ../../results/07_align_sco/alignments/OG0000652.aln
+    output: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000652.tsv
+    conda-env: /data/emil/uabimicrobium_paper/scripts/conda-envs/20f237e006ca5a3ef18d610b125fbe8f_
+    shell:
+        perl alignment_pruner.pl --file ../../results/07_align_sco/alignments/OG0000652.aln --aminogc > ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000652.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job alignment_aminogc since they might be corrupted:
+../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000652.tsv
+[Wed Aug  2 10:39:33 2023]
+Error in rule alignment_aminogc:
+    jobid: 97
+    input: ../../results/07_align_sco/alignments/OG0000768.aln
+    output: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000768.tsv
+    conda-env: /data/emil/uabimicrobium_paper/scripts/conda-envs/20f237e006ca5a3ef18d610b125fbe8f_
+    shell:
+        perl alignment_pruner.pl --file ../../results/07_align_sco/alignments/OG0000768.aln --aminogc > ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000768.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job alignment_aminogc since they might be corrupted:
+../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000768.tsv
+[Wed Aug  2 10:39:33 2023]
+Error in rule alignment_aminogc:
+    jobid: 16
+    input: ../../results/07_align_sco/alignments/OG0000812.aln
+    output: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000812.tsv
+    conda-env: /data/emil/uabimicrobium_paper/scripts/conda-envs/20f237e006ca5a3ef18d610b125fbe8f_
+    shell:
+        perl alignment_pruner.pl --file ../../results/07_align_sco/alignments/OG0000812.aln --aminogc > ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000812.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job alignment_aminogc since they might be corrupted:
+../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000812.tsv
+[Wed Aug  2 10:39:33 2023]
+Error in rule alignment_aminogc:
+    jobid: 70
+    input: ../../results/07_align_sco/alignments/OG0000624.aln
+    output: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000624.tsv
+    conda-env: /data/emil/uabimicrobium_paper/scripts/conda-envs/20f237e006ca5a3ef18d610b125fbe8f_
+    shell:
+        perl alignment_pruner.pl --file ../../results/07_align_sco/alignments/OG0000624.aln --aminogc > ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000624.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job alignment_aminogc since they might be corrupted:
+../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000624.tsv
+[Wed Aug  2 10:39:33 2023]
+Error in rule alignment_aminogc:
+    jobid: 28
+    input: ../../results/07_align_sco/alignments/OG0000640.aln
+    output: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000640.tsv
+    conda-env: /data/emil/uabimicrobium_paper/scripts/conda-envs/20f237e006ca5a3ef18d610b125fbe8f_
+    shell:
+        perl alignment_pruner.pl --file ../../results/07_align_sco/alignments/OG0000640.aln --aminogc > ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000640.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job alignment_aminogc since they might be corrupted:
+../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000640.tsv
+[Wed Aug  2 10:39:33 2023]
+Error in rule alignment_aminogc:
+    jobid: 95
+    input: ../../results/07_align_sco/alignments/OG0000678.aln
+    output: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000678.tsv
+    conda-env: /data/emil/uabimicrobium_paper/scripts/conda-envs/20f237e006ca5a3ef18d610b125fbe8f_
+    shell:
+        perl alignment_pruner.pl --file ../../results/07_align_sco/alignments/OG0000678.aln --aminogc > ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000678.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job alignment_aminogc since they might be corrupted:
+../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000678.tsv
+[Wed Aug  2 10:39:33 2023]
+Error in rule alignment_aminogc:
+    jobid: 83
+    input: ../../results/07_align_sco/alignments/OG0000644.aln
+    output: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000644.tsv
+    conda-env: /data/emil/uabimicrobium_paper/scripts/conda-envs/20f237e006ca5a3ef18d610b125fbe8f_
+    shell:
+        perl alignment_pruner.pl --file ../../results/07_align_sco/alignments/OG0000644.aln --aminogc > ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000644.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job alignment_aminogc since they might be corrupted:
+../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000644.tsv
+[Wed Aug  2 10:39:33 2023]
+Error in rule alignment_aminogc:
+    jobid: 69
+    input: ../../results/07_align_sco/alignments/OG0000802.aln
+    output: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000802.tsv
+    conda-env: /data/emil/uabimicrobium_paper/scripts/conda-envs/20f237e006ca5a3ef18d610b125fbe8f_
+    shell:
+        perl alignment_pruner.pl --file ../../results/07_align_sco/alignments/OG0000802.aln --aminogc > ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000802.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job alignment_aminogc since they might be corrupted:
+../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000802.tsv
+[Wed Aug  2 10:39:33 2023]
+Error in rule alignment_aminogc:
+    jobid: 42
+    input: ../../results/07_align_sco/alignments/OG0000698.aln
+    output: ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000698.tsv
+    conda-env: /data/emil/uabimicrobium_paper/scripts/conda-envs/20f237e006ca5a3ef18d610b125fbe8f_
+    shell:
+        perl alignment_pruner.pl --file ../../results/07_align_sco/alignments/OG0000698.aln --aminogc > ../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000698.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job alignment_aminogc since they might be corrupted:
+../../results/09_species_phylogeny_aminoGC/alignment_pruner/alignments/OG0000698.tsv
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2023-08-02T103734.662580.snakemake.log
