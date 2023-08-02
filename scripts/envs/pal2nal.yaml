@@ -1,0 +1,4 @@
+channels:
+    - bioconda
+dependencies:
+    - pal2nal=14.1

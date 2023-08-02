@@ -1,0 +1,10 @@
+channels:
+    - conda-forge
+    - bioconda
+dependencies:
+    - perl-bioperl
+    - perl-moose
+    - perl-moosex-types-path-class
+    - perl-moosex-getopt
+    - perl-gd
+    - perl-statistics-descriptive
