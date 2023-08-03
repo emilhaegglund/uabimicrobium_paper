@@ -72,9 +72,10 @@ rule species_phylogeny_pmsf:
         pre="../../results/{dataset}/bmge/species_phylogeny.C60.boot{replicate}"
     conda:
         "../envs/iqtree.yaml"
-    resources: cpus=8, time_min=480
+    threads:
+        6
     shell:
-        "iqtree -s {input.concat} -m LG+C60+F+G -pre {params.pre} -fs {input.site_frequency} -b0 1 -nt {resources.cpus} -redo"
+        "iqtree -s {input.concat} -m LG+C60+F+G -pre {params.pre} -fs {input.site_frequency} -bo 1 -nt {threads} -redo"
 
 rule consensus_tree_step1:
     input:
