@@ -1,0 +1,7 @@
+name: hmm
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - hmmer=3.3.2
