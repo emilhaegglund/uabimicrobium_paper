@@ -13,7 +13,6 @@ with open("../../data/accession_numbers.csv") as f:
 
 rule all:
     input:
-        #expand('results/ref_proteomes/{accession_eu}.faa.gz', accession_eu=accession_eu),
         expand("../../results/12-pkinase-analysis/hmmsearch-euk/{euk_accession}-pkinase-reformat.tsv", euk_accession=euk_accessions),
         expand("../../results/12-pkinase-analysis/hmmsearch-pvc/{pvc_accession}-pkinase-reformat.tsv", pvc_accession=pvc_accessions)
         "../../snakemake-dags/01-hmm-pkinase-domain-search.png"
@@ -113,6 +112,6 @@ rule reformat_hmm_pvc_output:
 
 rule create_dag_figure:
     output:
-        'results/dag_figures/01_hmm.png'
+        "../../snakemake-dags/01-hmm-pkinase-domain-search.png"
     shell:
         'snakemake -s snakefiles/01_hmm_pkinase_domain_search.smk --forceall --rulegraph | dot -Tpng > {output}'
