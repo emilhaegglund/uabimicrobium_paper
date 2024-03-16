@@ -1,10 +1,11 @@
-#dataset = ['11_species_phylogeny_aminoGC/aminoGC_high']
 dataset = ['07_species_phylogeny_single_copy_orthogroups']
+subset_dataset = ['08_species_phylogeny_slow_evolving/dN_high']
 replicates = list(range(100))
 
 rule all:
     input:
         expand("../../results/{dataset}/bmge/species_phylogeny.treefile", dataset=dataset),
+        expand("../../results/{dataset}/bmge/subset_species_phylogeny.treefile", dataset=subset_dataset),
         expand("../../results/{dataset}/bmge/species_phylogeny.C60.sitefreq", dataset=dataset),
         expand("../../results/{dataset}/bmge/species_phylogeny.C60.boot{replicate}.boottrees", dataset=dataset, replicate=replicates),
         expand("../../results/{dataset}/bmge/species_phylogeny.C60.alltrees_blength.contree.treefile", dataset=dataset)
@@ -12,7 +13,7 @@ rule all:
 rule concatenate_sco:
     input:
         protein_mappings="../../results/01_download_data/protein_mapping.tsv",
-        alignment_dir="../../results/07_align_sco/alignments",
+        alignment_dir="../../results/06_align_sco/alignments/",
         orthogroups="../../results/{dataset}/orthogroups.txt"
     output:
         concat="../../results/{dataset}/bmge/species_phylogeny.aln"
@@ -36,6 +37,21 @@ rule species_phylogeny:
         "../../results/{dataset}/bmge/species_phylogeny.treefile"
     params:
         pre="../../results/{dataset}/bmge/species_phylogeny",
+        uf=1000,
+        alrt=1000
+    conda:
+        "../envs/iqtree.yaml"
+    threads:
+        8
+    shell:
+        "iqtree -s {input.concat} -m LG+F+G -pre {params.pre} -bnni -bb {params.uf} -alrt {params.alrt} -nt {threads} -redo"
+rule subset_species_phylogeny:
+    input:
+        concat="../../results/{dataset}/bmge/species_phylogeny.trimmed.aln",
+    output:
+        "../../results/{dataset}/bmge/subset_species_phylogeny.treefile"
+    params:
+        pre="../../results/{dataset}/bmge/subset_species_phylogeny",
         uf=1000,
         alrt=1000
     conda:
