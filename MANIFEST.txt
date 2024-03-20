@@ -1,6 +1,9 @@
-README.md: 442.00 B
+README.md: 624.00 B
+MANIFEST.txt: 4.72 KB
 data/accession_numbers.csv: 1.75 KB
 scripts/concat_alignment.py: 6.18 KB
+scripts/04_interproscan/04_interproscan.smk: 864.00 B
+scripts/04_interproscan/reformat_results.py: 1.72 KB
 scripts/06-align-sco/06-align-sco.smk: 1.05 KB
 scripts/12-pkinase-analysis/05-pkinase-evolution.smk: 1.07 KB
 scripts/12-pkinase-analysis/pkinase-phylogeny.smk: 10.21 KB
@@ -79,3 +82,7 @@ scripts/01-download-data/01-download-data.smk: 3.42 KB
 scripts/01-download-data/create-genome-folder.py: 587.00 B
 scripts/01-download-data/protein-mapping.py: 613.00 B
 scripts/01-download-data/compile-genome-statistics.py: 341.00 B
+scripts/05_COG/merge_proteomes.py: 465.00 B
+scripts/05_COG/COG_assignment.pl: 6.78 KB
+scripts/05_COG/05_COG.smk: 962.00 B
+scripts/05_COG/parse_COG_assignment.pl: 1020.00 B
